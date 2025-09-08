@@ -1,0 +1,81 @@
+MIT License
+
+Copyright (c) 2024 Credit Portfolio Risk & Strategy Simulator
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===============================================================================
+
+ADDITIONAL TERMS FOR FINANCIAL SERVICES USE
+
+This software is designed for educational and demonstration purposes in credit 
+portfolio analytics and risk management. While the methodologies and algorithms 
+implemented are based on industry best practices, users are responsible for:
+
+1. Ensuring compliance with applicable financial regulations (Basel III, IFRS9, 
+   GDPR, etc.) in their jurisdiction
+
+2. Validating all risk models and calculations before use in production 
+   environments
+
+3. Implementing appropriate data governance, security, and privacy controls
+
+4. Conducting thorough testing and validation before deployment in live systems
+
+5. Obtaining necessary regulatory approvals for risk management systems
+
+The authors and contributors make no representations or warranties regarding 
+the accuracy, completeness, or suitability of this software for specific 
+regulatory or business requirements.
+
+===============================================================================
+
+DISCLAIMER FOR SIMULATED DATA
+
+This project uses synthetic/simulated financial data generated through 
+statistical modeling and random number generation. This data:
+
+- Does not represent any real customers, accounts, or financial institutions
+- Is created solely for demonstration and educational purposes  
+- Should not be used for actual credit decisions or regulatory reporting
+- May not reflect real-world distributions or correlations accurately
+- Is not subject to data protection regulations as it contains no personal data
+
+Users implementing this system with real customer data are responsible for 
+ensuring compliance with all applicable data protection and privacy laws.
+
+===============================================================================
+
+THIRD-PARTY LICENSES
+
+This software incorporates open-source libraries and tools. Users should 
+review and comply with the individual licenses of all dependencies listed 
+in requirements.txt, including but not limited to:
+
+- pandas (BSD 3-Clause)
+- scikit-learn (BSD 3-Clause)  
+- XGBoost (Apache 2.0)
+- Streamlit (Apache 2.0)
+- Plotly (MIT)
+- NumPy (BSD 3-Clause)
+
+Full license texts for all dependencies are available in their respective 
+package distributions.
+
+===============================================================================

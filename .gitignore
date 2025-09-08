@@ -1,0 +1,403 @@
+# Credit Portfolio Risk & Strategy Simulator - Git Ignore File
+# Excludes sensitive data, temporary files, and environment-specific configurations
+
+# =============================================================================
+# SENSITIVE DATA & CREDENTIALS
+# =============================================================================
+
+# Never commit real customer data or credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+config/secrets.yaml
+config/database.yaml
+.env
+.env.local
+.env.production
+secrets/
+credentials/
+
+# Database files (contains simulated but potentially sensitive portfolio data)
+*.db
+*.sqlite
+*.sqlite3
+app/data/*.db
+
+# CSV files with customer data (comment out if you want to include sample data)
+# data/credit_portfolio.csv
+# data/portfolio_with_risk_metrics.csv
+
+# =============================================================================
+# PYTHON & JUPYTER
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Jupyter Notebook temporary files
+Untitled*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# celery beat schedule file
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+credit_portfolio_env/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+
+# =============================================================================
+# DATA SCIENCE & ML
+# =============================================================================
+
+# Large data files
+*.csv.gz
+*.parquet
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+
+# Model files
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pb
+*.model
+
+# Data processing temp files
+temp_data/
+processed_data/
+intermediate_results/
+cache/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# =============================================================================
+# STREAMLIT
+# =============================================================================
+
+# Streamlit cache
+.streamlit/
+
+# =============================================================================
+# OPERATING SYSTEM
+# =============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# DEVELOPMENT TOOLS
+# =============================================================================
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# vim
+*.swp
+*.swo
+
+# emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# =============================================================================
+# LOGS & MONITORING
+# =============================================================================
+
+# Log files
+logs/
+*.log
+*.out
+*.err
+log/
+*.log.*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================================================================
+# DOCUMENTATION
+# =============================================================================
+
+# Generated documentation
+docs/_build/
+docs/build/
+build/doctrees/
+build/html/
+site/
+
+# Sphinx
+_build/
+_static/
+_templates/
+
+# =============================================================================
+# TESTING & CI/CD
+# =============================================================================
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Unit test / pytest
+.pytest_cache/
+test_results/
+test_reports/
+
+# =============================================================================
+# CLOUD & DEPLOYMENT
+# =============================================================================
+
+# Docker
+Dockerfile.local
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# AWS
+.aws/
+
+# GCP
+*.json
+gcp-key.json
+
+# Azure
+.azure/
+
+# =============================================================================
+# PROJECT-SPECIFIC
+# =============================================================================
+
+# Large generated datasets (uncomment to exclude)
+# data/large_portfolio_*.csv
+# data/*_simulation_*.csv
+
+# Temporary analysis files
+scratch/
+temp/
+tmp/
+analysis_temp/
+
+# Export files
+exports/
+reports/
+output/
+
+# Screenshots (if auto-generated)
+# screenshots/*.png
+# screenshots/*.jpg
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Configuration overrides
+config.local.yaml
+settings.local.json
+
+# Performance profiling
+*.prof
+profile_results/
+
+# =============================================================================
+# FINANCIAL SERVICES SPECIFIC
+# =============================================================================
+
+# Regulatory reports
+reports/regulatory/
+audit_logs/
+compliance_exports/
+
+# Risk model outputs
+risk_models/output/
+model_validation/
+backtesting_results/
+
+# Stress test scenarios
+stress_test_results/
+scenario_analysis/
+
+# =============================================================================
+# SAMPLE INCLUSIONS (Comment out to include)
+# =============================================================================
+
+# Include sample data for demonstration (small files only)
+!data/sample_portfolio_1k.csv
+!screenshots/dashboard_overview.png
+!screenshots/risk_analysis.png
+!screenshots/strategy_simulator.png
+
+# Include documentation assets
+!docs/images/
+!docs/diagrams/
+
+# =============================================================================
+# NOTES
+# =============================================================================
+
+# This .gitignore is configured for:
+# - Financial services data security
+# - Python data science development
+# - Streamlit dashboard deployment  
+# - Multi-environment configuration
+# - Regulatory compliance considerations
+#
+# Remember to:
+# 1. Never commit real customer/financial data
+# 2. Use environment variables for sensitive configuration
+# 3. Regularly review and update exclusion patterns
+# 4. Consider using git-crypt for additional security layers

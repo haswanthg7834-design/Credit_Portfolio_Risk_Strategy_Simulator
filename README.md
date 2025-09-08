@@ -355,9 +355,6 @@ We welcome contributions from credit risk professionals and data scientists!
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-
-- **Next Credit Risk Team** for business requirements and validation
-- **UK Financial Conduct Authority** for regulatory guidance  
 - **Open Source Community** for excellent Python libraries
 - **Credit Risk Practitioners** for domain expertise and feedback
 
